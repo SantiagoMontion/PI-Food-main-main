@@ -1,0 +1,193 @@
+.BackLogo{
+    width: 70px;
+    height: 70px;
+}
+
+.LogoBack{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.infoContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipeimg{
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    width: 550px;
+    height: 420px;
+
+}
+
+.img-contain{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.recipe_name{
+    width: 100%;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.dietscontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dietscontainer h3{
+    font-size: 24px;
+}
+
+.Dietsdetail{
+    background-color: #0f0f0f3a;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px;
+    width: 250px;
+}
+
+
+.PlateResume{
+    width: 700px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.PlateResumeContainer{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.img-plate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PlateResumeContainer h2{
+    width: 100%;
+    height: 10px;
+    
+}
+
+
+.LevelsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+
+.meters{
+    width: 180px;
+    margin: 25px;
+}
+
+.StepsContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.StepsContainer h2{
+    padding: 15px;
+    width: 100%;
+    background-color: #0f0f0f;
+    color: white;
+    
+}
+
+.stepsText{
+    width: 800px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.BackLogo:hover{
+    filter: invert(100%);
+    
+}
+
+.dishTypeContainer{
+    
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0f0f0f;
+    color: white;
+    margin-top: 25px;
+}
+
+
+.dishTypelist{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.dietspan{
+    width: 100%;
+    
+    margin-top: 10px;
+}
+
+
+
+
+
+@media (max-width: 700px){
+    .infoContainer{
+        width: 400px;
+        justify-content: center;
+    }
+    .img-plate{
+        flex-wrap: wrap;
+        width: 400px;
+        justify-content: center;
+    }
+
+    .img-contain{
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .recipeimg{
+        width: 400px;
+        height: 250px;
+    }
+  
+    .PlateResumeContainer{
+        width: 400px;
+        margin-left: 0px;
+    }
+    
+    .Puntuactionh2{
+        width: 100%;
+    }
+
+    .Healtyh2{width: 100%;}
+  }

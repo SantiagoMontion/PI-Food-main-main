@@ -1,0 +1,16 @@
+.recipeDetailContainer{
+    margin:0;
+    padding:0;  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.NavContain{
+    width: 100%;
+    height: 70px;
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,123 @@
+.FormContain{
+    background-color: #0f0f0f0e;
+    color: rgb(0, 0, 0);
+    width: 800px;
+    height: 1000px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px black;
+    padding: 25px;
+    border-radius: 20px;
+    
+}
+
+.AllInputs{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.AllForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Input input{
+    background-color: transparent;
+    width: 310px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
+    height: 25px;
+    margin-top: 8px;
+    
+}
+.Input input:focus{
+    outline: none;
+}
+
+label{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+
+.InputContain{
+    margin: 20px;
+    
+}
+
+.InputContain label{
+    font-size:22px;
+    font-weight: 500;
+}
+
+
+
+.danger label{ 
+    padding: 5px;
+    border-radius: 0 !important;
+    position: relative; 
+    display: inline-block !important;
+    margin-top: 5px;
+    color: rgb(255, 81, 81);
+    font-size:16px;
+  }
+input.danger{
+    border: 1px solid rgb(255, 81, 81);
+}
+
+.Stepscontain{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.submit button{
+    padding: 20px;
+    background-color: #0f0f0f;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.submit button:hover{
+    background-color: #000000cb;
+    color: rgb(255, 255, 255);
+}
+
+.submit button:disabled,
+    button[disabled]{
+        border: 1px solid #999999;
+        background-color: #cccccc;
+        color: #666666;
+      }
+
+
+.types-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.types-form label{
+    font-size: 17px;
+    margin-right: 10px;
+    
+}
+
+.typesh3{
+    width: 100%;
+}
+
+
+@media (max-width: 700px){
+    .FormContain{
+        
+        height: 1550px;
+        margin-top: 50px;
+        
+    }
+    
+}

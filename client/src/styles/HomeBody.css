@@ -1,0 +1,93 @@
+.recipe_grid{
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(50px,auto);
+    margin-top: 20px;
+    
+    
+    
+}
+
+.item{
+    grid-row: span 1;
+    grid-column:  span 1;
+    border-radius: 10px;
+    margin: 30px 50px 0px 50px;
+    border: 1px rgba(0, 0, 0, 0.178) solid;
+    justify-content: center;
+}
+
+.item:hover{
+    box-shadow: 1px 1px 15px black;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.img-container img{
+    border-radius: 10px;
+    width: 350px;
+    height: 290px;
+ 
+}
+
+
+.dietsList{
+    background-color: #0000001c;
+    list-style-type: none; 
+    border-radius: 10px;
+    margin: 0px 15px 10px;
+    
+}
+
+.dietsList:hover{
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.247);
+    transform: scale(1.05);
+}
+
+.dietsList button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.dietsList button:hover{
+    color: black;
+}
+
+.diet-container{
+    
+    margin: 0 -5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+.titleAndDiet{
+    color: black;
+    background-color: #ffffff;
+}
+
+
+@media (max-width: 700px){
+    .recipe_grid{
+        display: grid;
+        grid-auto-columns: max-content;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+        grid-auto-rows: minmax(5px,auto);
+        margin-top: 10px;
+    }
+
+    
+}
