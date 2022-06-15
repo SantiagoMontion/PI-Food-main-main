@@ -3,7 +3,7 @@
 </p>
 
 # Individual Project - Henry Food
-<a href="https://www.linkedin.com/feed/update/urn:li:activity:6921161047282196481/>"VIDEO LINK</a>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:6921161047282196481"/>VIDEO LINK</a>
 <p align="right">
   <img height="200" src="./cooking.png" />
 </p>
